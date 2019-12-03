@@ -1,19 +1,19 @@
-#customers {
+#Items {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-#customers td, #customers th {
+#Items td, #Items th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#Items tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+#Items tr:hover {background-color: #ddd;}
 
-#customers th {
+#Items th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
