@@ -5,7 +5,11 @@
   width: 200px;
   height: 150px;
 }
-
+#body  {
+  background-image: url("elephant.jfif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 #Items {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
