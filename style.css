@@ -5,11 +5,11 @@
   width: 200px;
   height: 150px;
 }
-#body  {
-  background-image: url("https://em.wattpad.com/58f6de0a583512d51ac501fef91edb2cf5944a13/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f2d70466b536f486c395a385532773d3d2d3735303831383631372e313561633335643366353765623636343434353033323039353639392e6a7067?s=fit&w=720&h=720");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+  background: #548d69;
 }
+
+
 #Items {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
