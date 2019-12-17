@@ -1,9 +1,9 @@
 #title {
   border-radius: 25px;
-  background: #73AD21;
+  background: #ddd;
   padding: 20px;
   width: 200px;
-  height: 150px;
+  height: auto;
 }
 body {
   background: #548d69;
@@ -23,7 +23,7 @@ body {
 
 #Items tr:nth-child(even){#ffffff: #f2f2f2;}
 
-#Items tr:hover {background-color: #ddd;}
+#Items tr:hover {background-color: c;}
 
 #Items th {
   padding-top: 12px;
@@ -39,3 +39,36 @@ body {
   width: 200px;
   height: 150px;
 }
+#rainbow{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
